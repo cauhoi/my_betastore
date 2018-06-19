@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-skip_before_action :require_login
+# skip_before_action :require_login
   def index
     # @products is an active record not array, which you can add more querry
       @products = Product.order('name')
