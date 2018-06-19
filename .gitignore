@@ -11,8 +11,11 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /config/initializers/secret_token.rb
+/config/initializers/braintree.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+heroku_key
+heroku_key.pub
 
