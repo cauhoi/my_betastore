@@ -16,6 +16,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-heroku_key
-heroku_key.pub
+/heroku_key
+/heroku_key.pub
 
